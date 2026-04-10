@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mission_types">
+        <item>Photo</item>
+        <item>Barcode</item>
+        <item>Math</item>
+        <item>Memory</item>
+        <item>Shake</item>
+    </string-array>
+</resources>

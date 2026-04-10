@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Time Picker placeholder -->
+        <TimePicker
+            android:id="@+id/time_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner"/>
+
+        <!-- Day selection toggles -->
+        <!-- (Implement with CheckBoxes or ToggleButtons) -->
+
+        <!-- Ringtone & Vibration -->
+        <!-- (Launch RingtonePicker with Intent) -->
+
+        <!-- Mission ON/OFF Switch -->
+        <Switch
+            android:id="@+id/switch_mission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wake-up Mission" />
+
+        <!-- Step count selector -->
+        <Spinner
+            android:id="@+id/spinner_steps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="10, 15, 20, 25" />
+
+        <!-- PIN/Pattern setup button -->
+        <Button
+            android:id="@+id/btn_setup_security"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Setup PIN/Pattern" />
+
+        <!-- Save Alarm -->
+        <Button
+            android:id="@+id/btn_save_alarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Alarm" />
+
+    </LinearLayout>
+</ScrollView>

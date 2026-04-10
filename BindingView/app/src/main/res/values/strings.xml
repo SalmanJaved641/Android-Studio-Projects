@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Binding View</string>
+    <string name="click_able_text">Clickable=true \n and inflate in main body using BindingView with layout inflater</string>
+</resources>

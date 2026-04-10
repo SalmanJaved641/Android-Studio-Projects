@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+android:orientation="vertical"    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANIMATION! "
+        android:textSize="34sp"
+        android:foregroundTint="#2196F3"
+        android:id="@+id/txtAnim"
+        android:layout_centerInParent="true"
+        />
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center">
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#9D9999"
+            android:text="bounce"
+            android:id="@+id/btnmove"
+            android:layout_marginEnd="11dp"
+
+            />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#9D9999"
+            android:text="Rotate"
+            android:id="@+id/btnrotate"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:layout_marginBottom="50dp">
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#9D9999"
+            android:text="Scale"
+            android:id="@+id/btnscale"
+            android:layout_marginEnd="11dp" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#9D9999"
+            android:text="Alpha"
+            android:id="@+id/btnalpha"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

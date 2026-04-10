@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BMI calculator</string>
+    <string name="hint_w">   in kg</string>
+    <string name="hint_hF">   in ft</string>
+    <string name="hint_hI">   in inches</string>
+    <string name="btn_txt">Calculate BMI</string>
+    <string name="text_R"></string>
+</resources>

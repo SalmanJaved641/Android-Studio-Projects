@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/laptop"
+        android:scaleType="fitXY"
+        android:contentDescription="laptop picture jpg"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My name  is salman and i am software engineering student at grnnn international university.I learn many skills such as graphic designing, video animation, app developnment and free lancing to make my career.Are you want to contect with me."
+        android:textSize="10sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="enter gmail"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="enter password"
+        android:layout_marginTop="10dp"
+        android:inputType="numberPassword"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contect me"
+        android:backgroundTint="#9E9A9A"
+        android:layout_marginTop="10dp"
+        />
+
+    <!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello bro. I AM SALMAN!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+-->
+
+</LinearLayout>

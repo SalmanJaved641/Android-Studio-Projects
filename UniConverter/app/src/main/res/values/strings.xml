@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Uni Converter</string>
+    <string name="electronics">This article is about the technical field. For personal/home-use electronic devices, see consumer electronics. For the journal, see Electronics (magazine).
+
+Modern surface-mount electronic components on a printed circuit board, with a large integrated circuit at the top
+Electronics is a scientific and engineering discipline that studies and applies the principles of physics to design, create, and operate devices that manipulate electrons and other electrically charged particles. Electronics is a subfield of physics[1][2] and electrical engineering which uses active devices such as transistors, diodes, and integrated circuits to control and amplify the flow of electric current and to convert it from one form to another, such as from alternating current (AC) to direct current (DC) or from analog signals to digital signals.
+
+Electronic devices have hugely influenced the development of many aspects of modern society, such as telecommunications, entertainment, education, health care, industry, and security. The main driving force behind the advancement of electronics is the semiconductor industry, which in response to global demand continually produces ever-more sophisticated electronic devices and circuits. The semiconductor industry is one of the largest and most profitable sectors in the global economy, with annual revenues exceeding $481 billion in 2018. The electronics industry also encompasses other sectors that rely on electronic devices and systems, such as e-commerce, which generated over $29 trillion in online sales in 2017.
+
+History and development
+See also: History of electronic engineering and Timeline of electrical and electronic engineering
+
+One of the earliest Audion radio receivers, constructed by De Forest in 1914
+The identification of the electron in 1897 by Sir Joseph John Thomson, along with the subsequent invention of the vacuum tube which could amplify and rectify small electrical signals, inaugurated the field of electronics and the electron age.[3] Practical applications started with the invention of the diode by Ambrose Fleming and the triode by Lee De Forest in the early 1900s, which made the detection of small electrical voltages, such as radio signals from a radio antenna, practicable.
+
+Vacuum tubes (thermionic valves) were the first active electronic components which controlled current flow by influencing the flow of individual electrons, and enabled the construction of equipment that used current amplification and rectification to give us radio, television, radar, long-distance telephony and much more. The early growth of electronics was rapid, and by the 1920s, commercial radio broadcasting and telecommunications were becoming widespread and electronic amplifiers were being used in such diverse applications as long-distance telephony and the music recording industry.[4]
+
+The next big technological step took several decades to appear, when the first working point-contact transistor was invented by John Bardeen and Walter Houser Brattain at Bell Labs in 1947.[5] However, vacuum tubes played a leading role in the field of microwave and high power transmission as well as television receivers until the middle of the 1980s.[6] Since then, solid-state devices have all but completely taken over. Vacuum tubes are still used in some specialist applications such as high power RF amplifiers, cathode-ray tubes, specialist audio equipment, guitar amplifiers and some microwave devices.
+
+In April 1955, the IBM 608 was the first IBM product to use transistor circuits without any vacuum tubes and is believed to be the first all-transistorized calculator to be manufactured for the commercial market.[7][8] The 608 contained more than 3,000 germanium transistors. Thomas J. Watson Jr. ordered all future IBM products to use transistors in their design. From that time on transistors were almost exclusively used for computer logic circuits and peripheral devices. However, early junction transistors were relatively bulky devices that were difficult to manuf</string>
+</resources>

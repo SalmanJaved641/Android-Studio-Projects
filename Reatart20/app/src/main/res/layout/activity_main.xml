@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="laptop image"
+        android:rotationX="2"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/laptop" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="My name  is salman and i am software engineering student at grnnn international university.I learn many skills such as graphic designing, video animation, app developnment and free lancing to make my career.Are you want to contect with me."
+        android:textAllCaps="false"
+        android:textColor="#C32A2A"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="12"
+        android:hint="enter gmail"
+        android:inputType="text"
+        android:text="javed..." />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#332E2E"
+        android:backgroundTintMode="screen"
+        android:ems="10"
+        android:foregroundTint="#3A3232"
+        android:foregroundTintMode="screen"
+        android:hint="enter passward"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#ABA6A6"
+        android:text="contect us"
+        />
+</LinearLayout>

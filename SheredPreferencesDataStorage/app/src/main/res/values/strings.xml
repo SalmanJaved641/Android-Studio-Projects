@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Shered Preferences Data Storage</string>
+    <string name="home_screen_text">After Splash Screen: \n      \ \ \ \ \ \
+        Login screen only see when first time app start like apps skip manuall
+        and when user logout if user do not press logout and restart app then
+        login screen do not appere.
+        \n \ \ \clear data to see result.</string>
+</resources>

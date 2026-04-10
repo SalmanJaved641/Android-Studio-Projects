@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#005DFE"
+    android:orientation="vertical"
+    tools:context=".calls">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calls and call the method of activity from this fragment"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:textColor="#000"
+        android:id="@+id/txt_frag2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="see the logcat to check that the method of main activity is called from this fragment or not"
+        android:textSize="20sp"
+        android:layout_marginTop="122dp"
+        android:padding="20dp"
+        android:textColor="#000"/>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+     >
+
+    <EditText
+        android:id="@+id/edtno1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter 1st number"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <EditText
+        android:id="@+id/edtno2"
+        android:imeOptions="actionDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter 2nd number"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <TextView
+        android:id="@+id/sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sum"
+        android:padding="5dp"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="358dp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

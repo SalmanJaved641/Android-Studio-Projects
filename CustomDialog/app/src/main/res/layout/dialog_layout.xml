@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#086BFF"
+
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/baseline_cloud_done_24"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#fff">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Success"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:layout_margin="10dp"
+        android:textColor="#086BFF"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Your order hasbeen successfully Dilevered"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        />
+
+</LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:backgroundTint="#0263F4"
+        android:textColor="#fff"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:id="@+id/btn_ok"
+        />
+</LinearLayout>
